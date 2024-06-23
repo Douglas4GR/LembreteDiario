@@ -6,4 +6,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Components\Pages\TabelaLembretes.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Pages\TabelaLembretes.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Pages\TabelaLembretes.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\Pages\TabelaLembretes.razor" />
+  </ItemGroup>
+
 </Project>
